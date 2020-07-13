@@ -1,0 +1,27 @@
+.intro__title {
+  font-family: Arial;
+  font-size: 28px;
+  line-height: 1.14;
+  margin: 0 20px 0 0;
+}
+
+@media screen and (max-width: 1075px) {
+  .intro__title {
+    font-size: 20px;
+    margin: 0 10px 0 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro-title {
+    margin-right: 5px;
+  }
+}
+
+@media screen and (max-width: 485px) {
+  .intro__title {
+    margin: 0 0 20px;
+  }
+}
+
+

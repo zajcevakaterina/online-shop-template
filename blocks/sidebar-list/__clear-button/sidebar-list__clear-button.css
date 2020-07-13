@@ -1,0 +1,13 @@
+.sidebar-list__clear-button {
+  font-family: Arial;
+  font-size: 10px;
+  background: #fff;
+  border: none;
+  line-height: 1.1;
+  text-align: right;
+  text-decoration-line: underline;
+  color: #333;
+  opacity: 0.5;
+  padding: 0;
+  cursor: pointer;
+}

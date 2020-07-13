@@ -1,0 +1,30 @@
+@import url(./__link/category-card__link.css);
+@import url(./__image/category-card__image.css);
+@import url(./__title/category-card__title.css);
+@import url(./__quantity/category-card__quantity.css);
+
+.category-card {
+  min-width: 230px;
+  list-style: none;
+  margin: 0 10px 0;
+  padding-right: 10px;
+  border-right: 1px solid #b9b9b9;
+  box-sizing: border-box;
+}
+
+.category-card:first-of-type {
+  margin-left: 0;
+}
+
+.category-card:last-of-type {
+  margin-right: 0;
+  border-right: none;
+}
+
+@media screen and (max-width: 768px) {
+  .category-card {
+    min-width: 200px;
+    margin: 0 8px 0;
+    padding-right: 5px;
+  }
+}

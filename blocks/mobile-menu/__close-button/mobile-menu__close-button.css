@@ -1,0 +1,9 @@
+.mobile-menu__close-button {
+  width: 20px;
+  height: 20px;
+  background: transparent;
+  background-image: url(../../../images/search_clear_button.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: none;
+}

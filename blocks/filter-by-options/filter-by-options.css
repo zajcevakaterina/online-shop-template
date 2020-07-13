@@ -1,0 +1,15 @@
+@import url(./__heading/filter-by-options__heading.css);
+@import url(./__buttons-container/filter-by-options__buttons-container.css);
+@import url(./__option/filter-by-option__option.css);
+@import url(./__option/_state/filters-by-options_state_active.css);
+
+.filter-by-options {
+  display: flex;
+  margin: 0 0 20px;
+}
+
+@media screen and (max-width: 1075px) {
+  .filter-by-options {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,6 @@
+.categories-list__item {
+  list-style: none;
+  line-height: 1;
+  margin: 0 0 8px;
+  padding: 0;
+}

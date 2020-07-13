@@ -1,0 +1,14 @@
+.pagination__dots-button {
+  background: #fff;
+  border: none;
+  font-size: 18px;
+  line-height: .94;
+  /* не стала использовать здесь в единственном месте шрифт Gotham Pro, этот момент в работе уточнила бы у дизайнера :) */
+}
+
+@media screen and (max-width: 768px) {
+  .pagination__dots-button {
+    font-size: 12px;
+    line-height: 1.12;
+  }
+}

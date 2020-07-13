@@ -1,0 +1,25 @@
+@import url(./__item/sidebar-list__item.css);
+@import url(./__heading/sidebar-list__heading.css);
+@import url(./__title/sidebar-list__title.css);
+@import url(./__title/_type/sidebar-list__title_type_price.css);
+@import url(./__clear-button/sidebar-list__clear-button.css);
+
+.sidebar-list {
+  margin: 0;
+  padding: 0 40px 0 0;
+  max-width: 295px;
+}
+
+@media screen and (max-width: 1075px) {
+  .sidebar-list {
+    padding: 0 20px 0 0;
+    max-width: 200px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .sidebar-list {
+    display: none;
+  }
+}
+

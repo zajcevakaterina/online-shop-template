@@ -1,0 +1,15 @@
+.filter-by-options__option {
+  font-family: inherit;
+  font-size: 14px;
+  line-height: 1.35;
+  color: #5375b7;
+  background: #fff;
+  border: none;
+  margin: 0 15px 0 0;
+  padding: 0;
+  cursor: pointer;
+  }
+
+.filter-by-options__option:last-of-type {
+  margin-right: 0;
+}

@@ -1,0 +1,20 @@
+@font-face {
+    src: url(./openSans_normal/OpenSans-Regular.ttf) format('truetype');
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    src: url(./openSans_bold/OpenSans-Bold.ttf) format('truetype');
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    src: url(./roboto_normal/Roboto-Regular.ttf) format('truetype');
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+}

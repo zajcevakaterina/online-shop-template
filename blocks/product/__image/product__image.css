@@ -1,0 +1,9 @@
+.product__image {
+  background-image: url(../../../images/product_image_template.svg);
+  padding-bottom: 100%;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  display: block;
+  margin: 0 0 10px;
+}

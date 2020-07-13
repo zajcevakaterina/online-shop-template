@@ -1,0 +1,19 @@
+.search__input {
+  height: 40px;
+  font-family: Arial;
+  font-size: 14px;
+  line-height: 1.14;
+  padding: 12px 0 12px 56px;
+  box-sizing: border-box;
+  border: 1px solid #c7c7c7;
+  box-sizing: border-box;
+  border-radius: 5px 0px 0px 5px;
+  margin: 0;
+  width: 100%;
+}
+
+@media screen and (max-width: 485px) {
+  .search__input {
+    padding: 8px 0 8px 6px;
+  }
+}

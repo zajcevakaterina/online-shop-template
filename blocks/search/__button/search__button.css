@@ -1,0 +1,22 @@
+@import url(./_type/search__button_type_close.css);
+@import url(./_type/search__button_type_submit.css);
+
+.search__button {
+  height: 40px;
+  font-family: Arial, sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  cursor: pointer;
+}
+
+.search__button:hover {
+  opacity: .8;
+  transition: opacity .2s linear;
+}
+
+@media screen and (max-width: 485px) {
+  .search__button{
+    font-size: 12px;
+  }
+}

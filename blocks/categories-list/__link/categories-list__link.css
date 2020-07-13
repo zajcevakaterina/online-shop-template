@@ -1,0 +1,21 @@
+.categories-list__link {
+  font-family: Arial;
+  font-size: 14px;
+  line-height: 1.14;
+  color: #5375b7;
+  text-decoration: none;
+  cursor: pointer;
+  transition: opacity .2s linear;
+  margin: 0;
+}
+
+.categories-list__link:hover {
+  opacity: .8;
+}
+
+@media screen and (max-width: 1075px) {
+  .categories-list__link {
+    font-size: 12px;
+    line-height: 1.06;
+  }
+}

@@ -1,0 +1,22 @@
+@import url(./__gradient/categories-cards__gradient.css);
+@import url(./__gradient/_state/categories-cards__gradient_state_fade.css);
+
+.categories-cards {
+  display: flex;
+  overflow: auto;
+  -ms-overflow-style: none;
+  padding: 30px 0 40px;
+  margin: 0;
+  position: relative;
+}
+
+.categories-cards::-webkit-scrollbar {
+  display: none;
+}
+
+@media screen and (max-width: 485px) {
+  .categories-cards {
+   display: none;
+  }
+}
+

@@ -1,0 +1,17 @@
+.filters__more-button {
+  width: 30px;
+  height: 30px;
+  background: transparent;
+  border: none;
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/a/a7/Toicon-icon-lines-and-angles-filter.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .filters__more-button {
+    display: block;
+  }
+}

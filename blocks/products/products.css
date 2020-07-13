@@ -1,0 +1,17 @@
+.products {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 44px;
+  row-gap: 40px;
+  padding: 0;
+  justify-content: center;
+  margin: 0 0 40px;
+}
+
+@media screen and (max-width: 485px) {
+  .products {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 25px;
+    row-gap: 20px;
+  }
+}

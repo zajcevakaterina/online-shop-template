@@ -1,0 +1,17 @@
+.product__name {
+  font-family: Arial;
+  font-size: 14px;
+  line-height: 1.3;
+  letter-spacing: 0.01em;
+  color: #000;
+  margin: 0 0 18px;
+  max-height: 36px;
+  max-width: 260px;
+}
+
+@media screen and (max-width: 768px) {
+  .product__name {
+    font-size: 12px;
+    line-height: 1.12;
+  }
+}

@@ -1,0 +1,10 @@
+.filter-sort-per-page__quantity {
+  background-color: #fff;
+  font-size: 14px ;
+  line-height: 1.36;
+  border: 1px solid #dedede;
+  box-sizing: border-box;
+  border-radius: 3px;
+  width: 50px;
+  height: 33px;
+}

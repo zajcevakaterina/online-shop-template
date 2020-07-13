@@ -1,0 +1,22 @@
+.filter-by-price__input {
+  width: 110px;
+  height: 40px;
+  border: 1px solid #DEDEDE;
+  box-sizing: border-box;
+  border-radius: 3px;
+  font-family: Arial;
+  font-size: 14px;
+  line-height: 1.14;
+  padding: 12px 13px;
+  color: #000;
+  opacity: 1;
+  margin: 0 0 0 4px;
+}
+
+@media screen and (max-width: 1075px) {
+  .filter-by-price__input {
+    width: 100px;
+    height: 30px;
+    font-size: 12px;
+  }
+}

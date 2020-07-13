@@ -1,0 +1,12 @@
+.filter-with-checkbox__input {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+}
+
+.filter-with-checkbox__input:checked + .filter-with-checkbox__visible-checkbox {
+  background-image: url('https://svgsilh.com/svg/151153.svg');
+  background-size: contain;
+}

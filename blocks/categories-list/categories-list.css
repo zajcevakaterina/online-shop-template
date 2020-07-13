@@ -1,0 +1,12 @@
+@import url(./__item/categories-list__item.css);
+@import url(./__quantity/categories-list__quantity.css);
+@import url(./__link/categories-list__link.css);
+@import url(./__more-button/categories-list__more-button.css);
+@import url(./__more-button/_state/categories-list__more-button_state_hidden.css);
+@import url(./__additional-items/categories-list__additional-items.css);
+@import url(./__additional-items/_state/categories-list__additional-items_state_shown.css);
+
+.categories-list {
+  margin: 10px 0 0;
+  padding: 0;
+}

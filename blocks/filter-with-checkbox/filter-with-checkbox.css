@@ -1,0 +1,9 @@
+@import url(./__input/filter-with-checkbox__input.css);
+@import url(./__visible-checkbox/filter-with-checkbox__visible-checkbox.css);
+@import url(./__label-text/filter-with-checkbox__label-text.css);
+@import url(./__label-quantity/filter-with-checkbox__label-quantity.css);
+
+.filter-with-checkbox {
+  display: flex;
+  flex-direction: column;
+}

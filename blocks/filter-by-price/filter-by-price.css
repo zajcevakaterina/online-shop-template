@@ -1,0 +1,17 @@
+@import url(./__label/filter-by-price__label.css);
+@import url(./__input/filter-by-price__input.css);
+@import url(./__currency/filter-by-price__currency.css);
+@import url(./__slider/filter-by-price__slider.css);
+
+.filter-by-price {
+  margin: 0 0 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 1075px) {
+  .filter-by-price {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,17 @@
+.search__icon {
+  background-image: url(../../../images/search_input_icon.svg);
+  background-repeat: no-repeat;
+  width: 17px;
+  height: 17px;
+  position: absolute;
+  left: 16px;
+  bottom: 12px;
+  padding-right: 12px;
+  border-right: 1px solid rgba(0, 0, 0, .5);
+}
+
+@media screen and (max-width: 485px) {
+  .search__icon {
+    display: none;
+  }
+}

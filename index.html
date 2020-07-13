@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Шаблон интернет-магазина</title>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="./pages/index.css">
+</head>
+
+<body>
+  <div class="root">
+    <header class="header">
+      <div class="header__container">
+        <a class="header__title" href="#">Шапка сайта</a>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="search">
+        <form class="search__form">
+          <input class="search__input" placeholder="Искать..." value="Запрос пользователя" minlength="1"
+            maxlength="246">
+          <div class="search__icon"></div>
+          <button type="button" class="search__clear-button"></button>
+          <button class="search__button search__button_type_submit" type="submit">Найти</button>
+        </form>
+        <button class="search__button search__button_type_close" type="button">Закрыть</button>
+      </section>
+
+      <section class="intro">
+        <h1 class="intro__title">Результаты по&nbsp;запросу</h1>
+        <p class="intro__subtitle">Показаны результаты для <span class="intro__user-query">“Запрос пользователя”</span>.
+          Вы искали <span class="intro__user-query">“Запрос пользователя”</span>.</p>
+      </section>
+
+      <ul class="categories-cards">
+        <div class="categories-cards__gradient"></div>
+        <li class="category-card">
+          <a class="category-card__link" href="#">
+            <img class="category-card__image" src='./images/category_image_template.svg'>
+            <p class="category-card__title">Название категории</p>
+            <p class="category-card__quantity">134 товара</p>
+          </a>
+        </li>
+        <li class="category-card">
+          <a class="category-card__link" href="#">
+            <img class="category-card__image" src='./images/category_image_template.svg'>
+            <p class="category-card__title">Название категории</p>
+            <p class="category-card__quantity">134 товара</p>
+          </a>
+        </li>
+        <li class="category-card">
+          <a class="category-card__link" href="#">
+            <img class="category-card__image" src='./images/category_image_template.svg'>
+            <p class="category-card__title">Название категории</p>
+            <p class="category-card__quantity">134 товара</p>
+          </a>
+        </li>
+        <li class="category-card">
+          <a class="category-card__link" href="#">
+            <img class="category-card__image" src='./images/category_image_template.svg'>
+            <p class="category-card__title">Название категории</p>
+            <p class="category-card__quantity">134 товара</p>
+          </a>
+        </li>
+        <li class="category-card">
+          <a class="category-card__link" href="#">
+            <img class="category-card__image" src='./images/category_image_template.svg'>
+            <p class="category-card__title">Название категории</p>
+            <p class="category-card__quantity">134 товара</p>
+          </a>
+        </li>
+        <li class="category-card">
+          <a class="category-card__link" href="#">
+            <img class="category-card__image" src='./images/category_image_template.svg'>
+            <p class="category-card__title">Название категории</p>
+            <p class="category-card__quantity">134 товара</p>
+          </a>
+        </li>
+        <li class="category-card">
+          <a class="category-card__link" href="#">
+            <img class="category-card__image" src='./images/category_image_template.svg'>
+            <p class="category-card__title">Название категории</p>
+            <p class="category-card__quantity">134 товара</p>
+          </a>
+        </li>
+        <li class="category-card">
+          <a class="category-card__link" href="#">
+            <img class="category-card__image" src='./images/category_image_template.svg'>
+            <p class="category-card__title">Название категории</p>
+            <p class="category-card__quantity">134 товара</p>
+          </a>
+        </li>
+      </ul>
+
+      <section class="results">
+
+        <aside class="sidebar">
+          <ul class="sidebar-list">
+            <li class="sidebar-list__item">
+              <h2 class="sidebar-list__title">Все категории</h2>
+              <ul class="categories-list">
+                <li class="categories-list__item">
+                  <a class="categories-list__link" href='#'>Категория, в которой нашли что-то <span
+                      class="categories-list__quantity">(xxx)</span></a>
+                </li>
+                <li class="categories-list__item">
+                  <a class="categories-list__link" href='#'>Категория, в которой нашли что-то <span
+                      class="categories-list__quantity">(xxx)</span></a>
+                </li>
+                <li class="categories-list__item">
+                  <a class="categories-list__link" href='#'>Категория, в которой нашли что-то <span
+                      class="categories-list__quantity">(xxx)</span></a>
+                </li>
+                <li class="categories-list__item">
+                  <a class="categories-list__link" href='#'>Категория, в которой нашли что-то <span
+                      class="categories-list__quantity">(xxx)</span></a>
+                </li>
+                <li class="categories-list__item">
+                  <a class="categories-list__link" href='#'>Категория, в которой нашли что-то <span
+                      class="categories-list__quantity">(xxx)</span></a>
+                </li>
+                <li class="categories-list__item">
+                  <a class="categories-list__link" href='#'>Категория, в которой нашли что-то <span
+                      class="categories-list__quantity">(xxx)</span></a>
+                </li>
+                <li class="categories-list__item">
+                  <a class="categories-list__link" href='#'>Категория, в которой нашли что-то <span
+                      class="categories-list__quantity">(xxx)</span></a>
+                </li>
+                <li class="categories-list__item">
+                  <a class="categories-list__link" href='#'>Категория, в которой нашли что-то <span
+                      class="categories-list__quantity">(xxx)</span></a>
+                </li>
+              </ul>
+              <div class="categories-list__more">
+                <button class="categories-list__more-button" type="button">Еще 10 категорий&#8230;</button>
+                <ul class="categories-list__additional-items">
+                  <li class="categories-list__item">
+                    <a class="categories-list__link" href='#'>Категория, в которой нашли что-то <span
+                        class="categories-list__quantity">(xxx)</span></a>
+                  </li>
+                  <li class="categories-list__item">
+                    <a class="categories-list__link" href='#'>Категория, в которой нашли что-то <span
+                        class="categories-list__quantity">(xxx)</span></a>
+                  </li>
+                  <li class="categories-list__item">
+                    <a class="categories-list__link" href='#'>Категория, в которой нашли что-то <span
+                        class="categories-list__quantity">(xxx)</span></a>
+                  </li>
+                  <li class="categories-list__item">
+                    <a class="categories-list__link" href='#'>Категория, в которой нашли что-то <span
+                        class="categories-list__quantity">(xxx)</span></a>
+                  </li>
+                  <li class="categories-list__item">
+                    <a class="categories-list__link" href='#'>Категория, в которой нашли что-то <span
+                        class="categories-list__quantity">(xxx)</span></a>
+                  </li>
+                  <li class="categories-list__item">
+                    <a class="categories-list__link" href='#'>Категория, в которой нашли что-то <span
+                        class="categories-list__quantity">(xxx)</span></a>
+                  </li>
+                  <li class="categories-list__item">
+                    <a class="categories-list__link" href='#'>Категория, в которой нашли что-то <span
+                        class="categories-list__quantity">(xxx)</span></a>
+                  </li>
+                  <li class="categories-list__item">
+                    <a class="categories-list__link" href='#'>Категория, в которой нашли что-то <span
+                        class="categories-list__quantity">(xxx)</span></a>
+                  </li>
+                  <li class="categories-list__item">
+                    <a class="categories-list__link" href='#'>Категория, в которой нашли что-то <span
+                        class="categories-list__quantity">(xxx)</span></a>
+                  </li>
+                  <li class="categories-list__item">
+                    <a class="categories-list__link" href='#'>Категория, в которой нашли что-то <span
+                        class="categories-list__quantity">(xxx)</span></a>
+                  </li>
+                </ul>
+
+              </div>
+            </li>
+
+            <li class="sidebar-list__item">
+              <h2 class="sidebar-list__title sidebar-list__title_type_price">Цена, валюта</h2>
+              <form class="filter-by-price">
+                <label for="minPrice" class="filter-by-price__label">
+                  от
+                  <input type="text" id="minPrice" class="filter-by-price__input" />
+                </label>
+                <label for="maxPrice" class="filter-by-price__label">
+                  до
+                  <input type="text" id="maxPrice" class="filter-by-price__input" />
+                </label>
+                <span class="filter-by-price__currency">p</span>
+              </form>
+              <div id="slider-range" class="filter-by-price__slider price-filter-range"></div>
+            </li>
+
+            <li class="sidebar-list__item">
+              <div class="sidebar-list__heading">
+                <h2 class="sidebar-list__title">Бренды</h2>
+                <button class="sidebar-list__clear-button">Очистить</button>
+              </div>
+              <form class="filter-with-checkbox">
+                <label for="brand_1" class="filter-with-checkbox__label">
+                  <input type="checkbox" class="filter-with-checkbox__input" id="brand_1">
+                  <span class="filter-with-checkbox__visible-checkbox"></span>
+                  <span class="filter-with-checkbox__label-text">Бренд <span
+                      class="filter-with-checkbox__label-quantity">(xxx)</span></span>
+                </label>
+
+
+                <label for="brand_2" class="filter-with-checkbox__label">
+                  <input type="checkbox" class="filter-with-checkbox__input" id="brand_2">
+                  <span class="filter-with-checkbox__visible-checkbox"></span>
+                  <span class="filter-with-checkbox__label-text">Бренд <span
+                      class="filter-with-checkbox__label-quantity">(x)</span></span>
+                </label>
+
+                <label for="brand_3" class="filter-with-checkbox__label">
+                  <input type="checkbox" class="filter-with-checkbox__input" id="brand_3">
+                  <span class="filter-with-checkbox__visible-checkbox"></span>
+                  <span class="filter-with-checkbox__label-text">Бренд <span
+                      class="filter-with-checkbox__label-quantity">(x xxx)</span></span>
+                </label>
+              </form>
+
+            </li>
+          </ul>
+        </aside>
+
+        <div class="results__content">
+          <div class="filters">
+            <div class="filters__desktop">
+              <div class="filters__sort">
+                <div class="filter-by-options">
+                  <h3 class="filter-by-options__heading">Сортировать по:</h3>
+                  <div class="filter-by-options__buttons-container">
+                    <button
+                      class="filter-by-options__option filter-by-options__option_state_active">популярности</button>
+                    <button class="filter-by-options__option">сначала дешевые</button>
+                    <button class="filter-by-options__option">сначала дорогие</button>
+                  </div>
+                </div>
+
+                <form class="filter-sort-per-page">
+                  <label class="filter-sort-per-page__label" for="quantity-per-page">показывать по</label>
+                  <select class="filter-sort-per-page__quantity" id="quantity-per-page" name="quantity-per-page">
+                    <option value="24">24</option>
+                    <option value="36">36</option>
+                    <option value="48">48</option>
+                  </select>
+                </form>
+              </div>
+
+              <div class="filters-by-clarifications">
+                <button class="filters-by-clarifications__clarification">Уточнение</button>
+                <button class="filters-by-clarifications__clarification">Уточнение</button>
+                <button class="filters-by-clarifications__clarification">Уточнение</button>
+                <button class="filters-by-clarifications__clarification">Уточнение</button>
+              </div>
+            </div>
+
+            <div class="filters__mobile">
+              <div class="filters__sort">
+                <div class="filter-by-options">
+                  <h3 class="filter-by-options__heading">Сортировать по:</h3>
+                  <div class="filter-by-options__buttons-container">
+                    <button
+                      class="filter-by-options__option filter-by-options__option_state_active">популярности</button>
+                    <button class="filter-by-options__option">сначала дешевые</button>
+                    <button class="filter-by-options__option">сначала дорогие</button>
+                  </div>
+                </div>
+                <button class="filters__more-button"></button>
+              </div>
+
+            </div>
+
+
+
+          </div>
+          <ul class="products">
+            <li class="product">
+              <a class="product__info" href='#'>
+                <div class="product__image"></div>
+                <p class="product__name">Наименование товара, которое не более 2 строк</p>
+                <div class="product__prices">
+                  <p class="product__current-price">XX XXX, $</p>
+                  <p class="product__previous-price">XX XXX $</p>
+                </div>
+              </a>
+              <button class="product__purchase-button">Кнопка</button>
+            </li>
+            <li class="product">
+              <a class="product__info" href='#'>
+                <div class="product__image"></div>
+                <p class="product__name">Наименование товара, которое не более 2 строк</p>
+                <div class="product__prices">
+                  <p class="product__current-price">XX XXX, $</p>
+                  <p class="product__previous-price">XX XXX $</p>
+                </div>
+              </a>
+              <button class="product__purchase-button">Кнопка</button>
+            </li>
+            <li class="product">
+              <a class="product__info" href='#'>
+                <div class="product__image"></div>
+                <p class="product__name">Наименование товара, которое не более 2 строк</p>
+                <div class="product__prices">
+                  <p class="product__current-price">XX XXX, $</p>
+                  <p class="product__previous-price">XX XXX $</p>
+                </div>
+              </a>
+              <button class="product__purchase-button">Кнопка</button>
+            </li>
+            <li class="product">
+              <a class="product__info" href='#'>
+                <div class="product__image"></div>
+                <p class="product__name">Наименование товара, которое не более 2 строк</p>
+                <div class="product__prices">
+                  <p class="product__current-price">XX XXX, $</p>
+                  <p class="product__previous-price">XX XXX $</p>
+                </div>
+              </a>
+              <button class="product__purchase-button">Кнопка</button>
+            </li>
+            <li class="product">
+              <a class="product__info" href='#'>
+                <div class="product__image"></div>
+                <p class="product__name">Наименование товара, которое не более 2 строк</p>
+                <div class="product__prices">
+                  <p class="product__current-price">XX XXX, $</p>
+                  <p class="product__previous-price">XX XXX $</p>
+                </div>
+              </a>
+              <button class="product__purchase-button">Кнопка</button>
+            </li>
+            <li class="product">
+              <a class="product__info" href='#'>
+                <div class="product__image"></div>
+                <p class="product__name">Наименование товара, которое не более 2 строк</p>
+                <div class="product__prices">
+                  <p class="product__current-price">XX XXX, $</p>
+                  <p class="product__previous-price">XX XXX $</p>
+                </div>
+              </a>
+              <button class="product__purchase-button">Кнопка</button>
+            </li>
+            <li class="product">
+              <a class="product__info" href='#'>
+                <div class="product__image"></div>
+                <p class="product__name">Наименование товара, которое не более 2 строк</p>
+                <div class="product__prices">
+                  <p class="product__current-price">XX XXX, $</p>
+                  <p class="product__previous-price">XX XXX $</p>
+                </div>
+              </a>
+              <button class="product__purchase-button">Кнопка</button>
+            </li>
+            <li class="product">
+              <a class="product__info" href='#'>
+                <div class="product__image"></div>
+                <p class="product__name">Наименование товара, которое не более 2 строк</p>
+                <div class="product__prices">
+                  <p class="product__current-price">XX XXX, $</p>
+                  <p class="product__previous-price">XX XXX $</p>
+                </div>
+              </a>
+              <button class="product__purchase-button">Кнопка</button>
+            </li>
+            <li class="product">
+              <a class="product__info" href='#'>
+                <div class="product__image"></div>
+                <p class="product__name">Наименование товара, которое не более 2 строк</p>
+                <div class="product__prices">
+                  <p class="product__current-price">XX XXX, $</p>
+                  <p class="product__previous-price">XX XXX $</p>
+                </div>
+              </a>
+              <button class="product__purchase-button">Кнопка</button>
+            </li>
+          </ul>
+
+          <div class="pagination">
+            <ul class="pagination__list">
+              <li class="pagination__item" type="button">2</li>
+              <li class="pagination__item pagination__item_type_current" type="button">3</li>
+              <li class="pagination__item pagination__item_type_dots">
+                <button class="pagination__dots-button">...</button>
+              </li>
+              <li class="pagination__item" type="button">13</li>
+            </ul>
+
+            <button class="pagination__arrow" type="button"></button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <div class="mobile-menu">
+      <div class="mobile-menu__container">
+        Тут будут фильтры :)
+      </div>
+      <button type="button" class="mobile-menu__close-button"></button>
+    </div>
+
+    <div class="overlay"></div>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="scripts/jquerySlider.js"></script>
+    <script src='./pages/index.js'></script>
+</body>
+
+</html>

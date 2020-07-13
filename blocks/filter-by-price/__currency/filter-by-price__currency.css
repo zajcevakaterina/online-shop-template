@@ -1,0 +1,13 @@
+.filter-by-price__currency {
+  font-family: Arial;
+  font-size: 12px;
+  line-height: 1.16;
+  color: #a9a9a9;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 1075px) {
+  .filter-by-price__currency {
+    display: none;
+  }
+}
